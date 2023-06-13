@@ -1,0 +1,10 @@
+Κάνετε cd cli-client
+Αμέσως μετά .\gradlew installDist
+Ότι εντολή τρέξετε θα πρέπει να είναι η συνέχεια του ακόλουθου path
+.\build\install\energy_017\bin\energy_017 
+Δηλαδη αν θέλω ActualTotalLoad γράφω
+.\build\install\energy_017\bin\energy_017 ActualTotalLoad --area=Greece --timeres=PT60M --date=2018-01-03
+
+ΑΠΑΡΑΙΤΗΤΗ ΠΡΟΥΠΟΘΕΣΗ ΓΙΑ ΝΑ ΤΡΕΞΕΙ ΟΤΙΔΗΠΟΤΕ ΕΙΝΑΙ ΝΑ ΚΑΤΕΒΑΣΕΤΕ JDK11 
+Windows: https://adoptopenjdk.net/
+Linux:https://sdkman.io/

@@ -1,0 +1,7 @@
+συμπληρωση του connect.js με τα στοιχεια της βασης μας
+npm install με cd στο φακελο που εχει το package.json (back-end)
+
+for self signed cert τρεχουμε εντολη συμπληρωνουμε οπου ζηταει password και παταμε enter: 
+openssl req -x509 -newkey rsa:4096 -keyout k.pem -out cert.pem -days 365 -nodes
+
+και τρεχουμε εντολη: env TZ='Europe/London' node app.js για να τρεξει το back-end
